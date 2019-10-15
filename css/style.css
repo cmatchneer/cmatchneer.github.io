@@ -23,6 +23,9 @@ body {
   
   h2 {
     font-size: 24px;
+    margin:0 auto;
+    border:1px solid darkblue;
+   
   }
   
   a {
@@ -33,7 +36,9 @@ body {
    
     list-style-type: none;
     margin: 0 auto;
-  
+    width: 960px;
+    clear:both;
+    height: 50px;
     padding: 0;
    
     
@@ -59,26 +64,35 @@ body {
   }
   .container {
     width: 1024px;
-    margin: 0 auto;
-    border: 1px solid darkblue;
+    margin: 20px auto;
+    
+  }
+  #nameheader{
+    margin:0 auto;
+    text-align: center;
+    width:70%;
+    /* float: left; */
   }
   
   
   #main-bio{
-    float: left;
-  
+    margin: 0 auto;
+    text-align: center;
+    border-right: 1px solid darkblue;
+    border-left:1px solid darkblue;
+    border-bottom:1px solid darkblue;
+    border-top:1px solid darkblue;
     width: 70%;
+    
   }
   
-  #contact-info {
-    float: left;
-    width: 30%;
-  }
+  
   
   #bio-image {
     float: left;
     width: 200px;
-    height: 200px;
-    margin-right: 20px;
+    height: 230px;
+    margin-right: 10px;
+    margin-top:10px;
   }
   
