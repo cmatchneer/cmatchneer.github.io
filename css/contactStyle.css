@@ -2,28 +2,35 @@ body{
     background-color: lightslategray;
 
 }
+header{
+  background-color: black;
+  margin-bottom: 10px;
+}
 h1{
     color: firebrick;
     text-align: center;
     margin: 0 auto;
 }
 ul{
-    font-style:bold;
-    list-style-type:none;
-    margin: 0 auto;
-    padding:0;
-    width:150px;
-    border:5px solid black;
-    background-color: goldenrod;
-  }
-  li{
-    text-align: center;
-    border-bottom: 5px solid black;
-    font-style: italic;
-    font-size: 150%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
+   
+  list-style-type: none;
+  margin: 0 auto;
+  width: 960px;
+  clear:both;
+  height: 50px;
+  padding: 0;
+ 
+  
+}
+li{
+  /* text-align: center; */
+  
+  float:left;
+  margin-left:15%;
+  border: 1px solid black;
+  background-color: goldenrod;
+  font-size: 120%;
+}
   li a{
     
     color: rgb(6, 102, 97);

@@ -50,6 +50,7 @@ body {
     margin-left:15%;
     border: 1px solid black;
     background-color: goldenrod;
+    font-size:120%;
   }
   li a{
     padding: 1px;
