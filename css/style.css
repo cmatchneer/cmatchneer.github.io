@@ -5,11 +5,11 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background: #efeee7;
+    background:  lightslategray;
   }
   
   header {
-    background: #333;
+    background:black;
   }
   
   h1 {
@@ -17,14 +17,16 @@ body {
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #eee;
+    color:firebrick;
     text-align: center;
   }
   
   h2 {
     font-size: 24px;
     margin:0 auto;
-    border:1px solid darkblue;
+    border:2px solid darkblue;
+    color:gold;
+    background-color: darkred;
    
   }
   
@@ -47,25 +49,43 @@ body {
     /* text-align: center; */
     
     float:left;
-    margin-left:15%;
+    margin-left:10%;
     border: 1px solid black;
-    background-color: goldenrod;
-    font-size:120%;
+    
+    font-size: 120%;
+    padding:2px;
   }
-  li a{
-    padding: 1px;
-    color: #000;
-   
-    text-decoration: none;
-  }
-  li a:hover {
-    padding:1px;
-    background-color: #555;
-    color: white;
+    li a{
+      
+      color: rgb(6, 102, 97);
+      background-color: goldenrod;
+      text-decoration: none;
+    }
+    li a:visited{
+      background-color:black;
+      color:whitesmoke;
+    }
+    li a:hover {
+      background-color:darkred;
+      color:gold;
+    }
+  p{
+    color:gold;
+    margin: 0 auto;
+    background-color:darkred;
+    padding-left:5px;
+    border-right:2px;
+    border-bottom: 2px;
+    border-left:2px;
+    border-color:darkblue;
+    border-style:solid;
+    
+    
   }
   .container {
-    width: 1024px;
+    width: 900px;
     margin: 20px auto;
+    /* background-color: darkred; */
     
   }
   #nameheader{
