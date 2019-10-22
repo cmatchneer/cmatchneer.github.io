@@ -73,18 +73,13 @@ body {
     color:gold;
     margin: 0 auto;
     background-color:darkred;
-    padding-left:5px;
-    border-right:2px;
-    border-bottom: 2px;
-    border-left:2px;
-    border-color:darkblue;
-    border-style:solid;
+    
     
     
   }
   .container {
     width: 900px;
-    margin: 20px auto;
+    margin: 0 auto;
     /* background-color: darkred; */
     
   }
@@ -99,10 +94,8 @@ body {
   #main-bio{
     margin: 0 auto;
     text-align: center;
-    border-right: 1px solid darkblue;
-    border-left:1px solid darkblue;
-    border-bottom:1px solid darkblue;
-    border-top:1px solid darkblue;
+    border: 2px solid darkblue;
+    
     width: 70%;
     
   }
@@ -115,5 +108,111 @@ body {
     height: 230px;
     margin-right: 10px;
     margin-top:10px;
+  }
+  @media screen and (max-width:980px){
+    li{
+      margin-left: 10%;
+      margin-top:10px;
+    }
+    .container{
+      width:700px;
+      margin:0 auto;
+    }
+    
+    p{
+      width:600px;
+      /* float:left; */
+    }
+    
+    header{
+      margin:0 auto;
+    }
+    h1{
+      margin:0 auto;
+      
+    }
+    #nameheader{
+      width:600px;
+      border-bottom: 0px;
+      margin: 0 auto;
+    }
+    #bio-image{
+      height:290px;
+      margin-top:5px;
+    }
+    #main-bio{
+      width:600px;
+      /* border:1px solid darkblue; */
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width:768px){
+   
+   
+    li{
+      margin-left:10%;
+      margin-top:5px;
+      height: 30px;
+      
+    
+    }
+    li a{
+      width:80px;
+      font-size:15px;
+      padding:5px;
+      
+    }
+    ul{
+      width:768px;
+    }
+    .container{
+      width:100%;
+      float:left;
+      /* background-color:darkred; */
+      margin: 0 auto;
+      
+    }
+    h1{
+      font-size:28px;
+     
+      margin:0 auto;
+      
+      
+    }
+    
+    #main-bio{
+      margin: 0 auto;
+      width:600px;
+      background-color:darkred;
+      /* border: 1px solid darkblue; */
+     
+    }
+    #nameheader{
+      margin:0 auto;
+      width:600px;
+    }
+    p{
+      /* margin-top:140px; */
+      font-size:15px;
+      width:550px;
+      border:0px;
+      background-color:darkred;
+      
+      margin: 0 auto;
+      
+    }
+    #bio-image{
+      width:550px;
+      height: 200px;
+      margin-left:25px;
+      
+    }
+    
+   
+  }
+  @media screen and (max-width:640px){
+   li{
+     margin-left:7%;
+   }
   }
   
