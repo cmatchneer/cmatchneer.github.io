@@ -65,9 +65,15 @@ div {
 img {
     width: 32%;
     height: 350px;
+    position: relative;
     float: left;
     border: 2px solid black;
     margin-left: 0.8%;
+}
+
+img:hover {
+    border: 5px solid gold;
+    z-index: 2;
 }
 
 .portfolioLinks {
