@@ -37,6 +37,7 @@ li {
     border: 1px solid black;
     font-size: 120%;
     padding: 2px;
+    background-color: firebrick;
 }
 
 li a {
