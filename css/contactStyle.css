@@ -14,7 +14,6 @@ header {
 h1 {
     color: firebrick;
     text-align: center;
-    /* margin: 0 auto; */
     padding: 20px 0;
     margin: 0;
     margin-bottom: 20px;
@@ -31,7 +30,6 @@ ul {
 }
 
 li {
-    /* text-align: center; */
     float: left;
     margin-left: 14%;
     border: 1px solid black;
@@ -62,12 +60,10 @@ input[type=text] {
     padding 12px;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* margin-left:10px; */
     box-sizing: border-box;
     border: 2px solid darkblue;
     border-radius: 5px;
     outline: none;
-    /* float:left; */
 }
 
 input[type=text]:focus {
@@ -92,9 +88,7 @@ input[type=submit]:hover {
 form {
     width: 60%;
     height: 300px;
-    /* border-style: groove; */
     margin: 0 auto;
-    /* background-color: red; */
 }
 
 fieldset {

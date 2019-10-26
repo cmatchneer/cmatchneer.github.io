@@ -8,13 +8,11 @@ body {
 
 header {
     background-color: black;
-    /* margin-bottom: 10px; */
 }
 
 h1 {
     color: firebrick;
     text-align: center;
-    /* margin: 0 auto; */
     padding: 20px 0;
     margin: 0;
     margin-bottom: 20px;
@@ -31,7 +29,6 @@ ul {
 }
 
 li {
-    /* text-align: center; */
     float: left;
     margin-left: 10%;
     border: 1px solid black;
@@ -89,7 +86,6 @@ img:hover {
 
 #theLinks1 {
     list-style-type: none;
-    /* padding-bottom:1px; */
     float: left;
     margin-top: 2px;
     height: 30px;
@@ -103,7 +99,6 @@ img:hover {
 
 #theLinks2 {
     list-style-type: none;
-    /* padding-bottom:1px; */
     float: left;
     margin-top: 2px;
     height: 30px;
@@ -117,7 +112,6 @@ img:hover {
 
 #theLinks3 {
     list-style-type: none;
-    /* padding-bottom:1px; */
     float: right;
     margin-top: 2px;
     height: 30px;
@@ -131,7 +125,6 @@ img:hover {
 
 #theLinks4 {
     list-style-type: none;
-    /* padding-bottom:1px; */
     float: left;
     margin-top: 2px;
     height: 30px;
@@ -145,7 +138,6 @@ img:hover {
 
 #theLinks5 {
     list-style-type: none;
-    /* padding-bottom:1px; */
     float: left;
     margin-top: 2px;
     height: 30px;
@@ -159,7 +151,6 @@ img:hover {
 
 #theLinks6 {
     list-style-type: none;
-    /* padding-bottom:1px; */
     float: right;
     margin-top: 2px;
     height: 30px;

@@ -43,7 +43,6 @@ ul {
 }
 
 li {
-    /* text-align: center; */
     float: left;
     margin-left: 10%;
     border: 1px solid black;
@@ -77,14 +76,12 @@ p {
 .container {
     width: 900px;
     margin: 0 auto;
-    /* background-color: darkred; */
 }
 
 #nameheader {
     margin: 0 auto;
     text-align: center;
     width: 70%;
-    /* float: left; */
 }
 
 #main-bio {
@@ -113,7 +110,6 @@ p {
     }
     p {
         width: 600px;
-        /* float:left; */
     }
     header {
         margin: 0 auto;
@@ -132,7 +128,6 @@ p {
     }
     #main-bio {
         width: 600px;
-        /* border:1px solid darkblue; */
         margin: 0 auto;
     }
 }
@@ -144,7 +139,6 @@ p {
     .container {
         width: 100%;
         float: left;
-        /* background-color:darkred; */
         margin: 0 auto;
     }
     h1 {
@@ -155,14 +149,12 @@ p {
         margin: 0 auto;
         width: 600px;
         background-color: darkred;
-        /* border: 1px solid darkblue; */
     }
     #nameheader {
         margin: 0 auto;
         width: 600px;
     }
     p {
-        /* margin-top:140px; */
         font-size: 15px;
         width: 550px;
         border: 0px;
